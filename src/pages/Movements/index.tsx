@@ -1,3 +1,4 @@
+import MovementForm from "./components/MovementForm";
 import "./movements.css";
 
 const Movements = () => {
@@ -11,7 +12,7 @@ const Movements = () => {
             </div>
 
             <div className="movement-content-form">
-               Formulario de movimientos
+               <MovementForm/>
             </div>
          </div>
       </div>
