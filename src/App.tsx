@@ -1,7 +1,9 @@
+import Movements from "./pages/Movements";
+
 function App() {
   return (
     <div className="App">
-      hello
+      <Movements/>
     </div>
   );
 }
