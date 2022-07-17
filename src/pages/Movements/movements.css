@@ -1,0 +1,17 @@
+.movement-page{
+border: 1px solid black;
+}
+
+.movement-content {
+   display: flex;
+}
+
+.movement-content-table{
+   background-color: blue;
+   flex-grow: 2;
+}
+
+.movement-content-form{
+   background: red;
+   flex-grow: 1;
+}
